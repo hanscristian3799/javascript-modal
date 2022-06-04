@@ -1,15 +1,175 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <button class="show-modal">Show Modal</button>
-    
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+  </head>
+  <body>
+    <button class="show-modal-btn" id="show-modal">Show Modal</button>
+    <div id="popupModal" class="modal">
+      <div class="modal-content">
+        <div class="header">
+          <h3>Modal</h3>
+          <span id="close-btn">&times;</span>
+        </div>
+        <hr />
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            ratione aliquid, quisquam quibusdam quam eaque aspernatur rem earum!
+            Rem quas dolore quidem ducimus, ipsa libero quos deserunt labore
+            consectetur aliquam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Minima ratione aliquid, quisquam quibusdam quam
+            eaque aspernatur rem earum! Rem quas dolore quidem ducimus, ipsa
+            libero quos deserunt labore consectetur aliquam. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Minima ratione aliquid,
+            quisquam quibusdam quam eaque aspernatur rem earum! Rem quas dolore
+            quidem ducimus, ipsa libero quos deserunt labore consectetur
+            aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Minima ratione aliquid, quisquam quibusdam quam eaque aspernatur rem
+            earum! Rem quas dolore quidem ducimus, ipsa libero quos deserunt
+            labore consectetur aliquam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Minima ratione aliquid, quisquam quibusdam quam
+            eaque aspernatur rem earum! Rem quas dolore quidem ducimus, ipsa
+            libero quos deserunt labore consectetur aliquam. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Minima ratione aliquid,
+            quisquam quibusdam quam eaque aspernatur rem earum! Rem quas dolore
+            quidem ducimus, ipsa libero quos deserunt labore consectetur
+            aliquam.
+          </p>
+        </div>
+        <hr />
+        <div class="footer">
+          <h5>&copy2022 Hans Cristian</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="articles">
+      <div class="article">
+        <h3 class="article-title">Article Title</h3>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          quod quasi libero soluta provident doloremque ipsa reiciendis, facere
+          accusamus nesciunt sint tempora quas, perferendis dolorem quaerat
+          animi repudiandae maxime voluptas! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quisquam pariatur, molestiae laboriosam
+          provident omnis vitae delectus ut dolores dignissimos, fuga tenetur in
+          distinctio reiciendis deleniti itaque animi suscipit consectetur iure?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
+          eius iusto id vero, dolore iste delectus necessitatibus commodi odit
+          laboriosam sunt, facere fuga. Ratione ipsum expedita quia fugiat
+          voluptatibus! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Illum eum fugiat minima assumenda. Nemo, modi doloremque
+          architecto rerum praesentium excepturi, consequatur, eaque accusantium
+          ipsa dolorem quidem. Consequatur cumque asperiores optio! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Molestias sit fugiat
+          dignissimos a inventore quaerat voluptatem rem adipisci, magni sint
+          delectus ut expedita rerum necessitatibus facere nihil esse error
+          nulla.
+        </p>
+      </div>
+
+      <div class="article">
+        <h3 class="article-title">Article Title</h3>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          quod quasi libero soluta provident doloremque ipsa reiciendis, facere
+          accusamus nesciunt sint tempora quas, perferendis dolorem quaerat
+          animi repudiandae maxime voluptas! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quisquam pariatur, molestiae laboriosam
+          provident omnis vitae delectus ut dolores dignissimos, fuga tenetur in
+          distinctio reiciendis deleniti itaque animi suscipit consectetur iure?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
+          eius iusto id vero, dolore iste delectus necessitatibus commodi odit
+          laboriosam sunt, facere fuga. Ratione ipsum expedita quia fugiat
+          voluptatibus! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Illum eum fugiat minima assumenda. Nemo, modi doloremque
+          architecto rerum praesentium excepturi, consequatur, eaque accusantium
+          ipsa dolorem quidem. Consequatur cumque asperiores optio! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Molestias sit fugiat
+          dignissimos a inventore quaerat voluptatem rem adipisci, magni sint
+          delectus ut expedita rerum necessitatibus facere nihil esse error
+          nulla.
+        </p>
+      </div>
+
+      <div class="article">
+        <h3 class="article-title">Article Title</h3>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          quod quasi libero soluta provident doloremque ipsa reiciendis, facere
+          accusamus nesciunt sint tempora quas, perferendis dolorem quaerat
+          animi repudiandae maxime voluptas! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quisquam pariatur, molestiae laboriosam
+          provident omnis vitae delectus ut dolores dignissimos, fuga tenetur in
+          distinctio reiciendis deleniti itaque animi suscipit consectetur iure?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
+          eius iusto id vero, dolore iste delectus necessitatibus commodi odit
+          laboriosam sunt, facere fuga. Ratione ipsum expedita quia fugiat
+          voluptatibus! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Illum eum fugiat minima assumenda. Nemo, modi doloremque
+          architecto rerum praesentium excepturi, consequatur, eaque accusantium
+          ipsa dolorem quidem. Consequatur cumque asperiores optio! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Molestias sit fugiat
+          dignissimos a inventore quaerat voluptatem rem adipisci, magni sint
+          delectus ut expedita rerum necessitatibus facere nihil esse error
+          nulla.
+        </p>
+      </div>
+
+      <div class="article">
+        <h3 class="article-title">Article Title</h3>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          quod quasi libero soluta provident doloremque ipsa reiciendis, facere
+          accusamus nesciunt sint tempora quas, perferendis dolorem quaerat
+          animi repudiandae maxime voluptas! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quisquam pariatur, molestiae laboriosam
+          provident omnis vitae delectus ut dolores dignissimos, fuga tenetur in
+          distinctio reiciendis deleniti itaque animi suscipit consectetur iure?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
+          eius iusto id vero, dolore iste delectus necessitatibus commodi odit
+          laboriosam sunt, facere fuga. Ratione ipsum expedita quia fugiat
+          voluptatibus! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Illum eum fugiat minima assumenda. Nemo, modi doloremque
+          architecto rerum praesentium excepturi, consequatur, eaque accusantium
+          ipsa dolorem quidem. Consequatur cumque asperiores optio! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Molestias sit fugiat
+          dignissimos a inventore quaerat voluptatem rem adipisci, magni sint
+          delectus ut expedita rerum necessitatibus facere nihil esse error
+          nulla.
+        </p>
+      </div>
+
+      <div class="article">
+        <h3 class="article-title">Article Title</h3>
+        <p class="article-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          quod quasi libero soluta provident doloremque ipsa reiciendis, facere
+          accusamus nesciunt sint tempora quas, perferendis dolorem quaerat
+          animi repudiandae maxime voluptas! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quisquam pariatur, molestiae laboriosam
+          provident omnis vitae delectus ut dolores dignissimos, fuga tenetur in
+          distinctio reiciendis deleniti itaque animi suscipit consectetur iure?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
+          eius iusto id vero, dolore iste delectus necessitatibus commodi odit
+          laboriosam sunt, facere fuga. Ratione ipsum expedita quia fugiat
+          voluptatibus! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Illum eum fugiat minima assumenda. Nemo, modi doloremque
+          architecto rerum praesentium excepturi, consequatur, eaque accusantium
+          ipsa dolorem quidem. Consequatur cumque asperiores optio! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Molestias sit fugiat
+          dignissimos a inventore quaerat voluptatem rem adipisci, magni sint
+          delectus ut expedita rerum necessitatibus facere nihil esse error
+          nulla.
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
