@@ -70,7 +70,8 @@ body {
 }
 
 .header span {
-  font-weight: bold;
+  font-weight: 400;
+  color: #888;
   font-size: 32px;
   cursor: pointer;
 }
